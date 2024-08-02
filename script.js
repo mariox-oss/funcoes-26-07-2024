@@ -6,66 +6,66 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Depois que você se ausenta da escola, varias pessoas diz que a um site que pode responder suas perguntas em segundos",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Isso é impresionate",
                 afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "No incio fique com duvida sobre esse site!",
                 afirmacao: "Quis saber como usar IA no seu dia a dia."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Após a professora ver como que e a tecnologia ia, ela decide, fazer com os alunos um trablho sobre a ia",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Utilizar a tecnologia para ver como funciona e ver como é.",
                 afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Escrever um texto com vossa palavra e com palvras dos cologas",
                 afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Ao ver como que funcionava a ia, decidem fazer um debate entre si pra ver como as pessoas acharam que seria a ia daqui uns anos pra frente ",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "A ia podia ser boa para sociedade, mas ela so fosse utilizada quando menos precisar pra nao estragar as pessoas e suas ideia ",
                 afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: " A ia é boa e deveria ser utilizada direta pelas pessoas, por que mudaria a sociedade ",
                 afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Logo apos o debate, decide fazerem uma imagen do modo antes da ia e depois da ia",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Fazer uma imagem usando apps antes do ia ",
                 afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Fazer uma imagm com a ia.",
                 afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Ao longo do tempo decidem fazer uma atividade em grupos e deicdem usar a nova função IA e a forma manoescrita ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+                texto: "Escrever manoescrito e utilizar umas partes da IA ",
                 afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+                texto: "Utilizar a função IA e fazer o trablho inteiro e nao fazer mudanças",
                 afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
             }
         ]
@@ -105,9 +105,9 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em 2060...";
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
+    caixaAlternativas.textContent = "Oque seria se a IA fosse criada no ano de 1980?";
 }
 
 mostraPergunta();
